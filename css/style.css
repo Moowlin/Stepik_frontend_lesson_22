@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+:root {
+    --color-primary: #DD2211;
+    --color-second: #C62314;
+    --color-fon: #130E27;
+    --color-black: #161616;
+    --color-white: #ffffff;
+    --color-grey: #EFEFEF;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.content {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.decrtiption{
+    width: 1440px;
+    height: 680px;
+    padding: 40px 190px;
+    background-image: url(../img/fon.svg);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 0 10px;
+    transition: 0.4s;
+}
+
+.nav li a:hover {
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    width: 550px;
+    margin: 0;
+    padding: 78px 0 53px 0;
+    line-height: 78px;
+    color: var(--color-fon);
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+h1 span{
+    color: var(--color-white);
+}
+
+.main .text{
+    color: var(--color-white);
+    font-size: 22px;
+    width: 494px;
+    line-height: 28px;
+}
+
+.text p{
+    margin: 0;
+}
+
+.services{
+    padding: 0 190px;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2 span{
+    color: var(--color-second);
+}
+
+.figures{
+    display: flex;
+    justify-content: space-between;
+}
+
+figure{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 68px;
+    width: 166px;
+    height: 256px;
+}
+
+figure img{
+    height: 140px;
+    width: 165px;
+    margin-bottom: 42px;
+}
+
+p.card-text{
+    font-size: 20px;
+    text-align: center;
+}
+
+section.story{
+
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-fon);
+    padding: 0 190px;
+}
+
+.text{
+    margin: auto 0;
+}
+
+.button{
+    margin: auto 0;
+}
+button{
+    width: 270px;
+    height: 64px;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    border: 0;
+    padding: 0;
+    color: var(--color-white);
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.story .text p{
+    color: var(--color-white);
+    font-size: 20px;
+    width: 611px;
+}
+
+section.pricing{
+    background-color: var(--color-grey);
+    height: 691px;
+}
+
+section.pricing h2{
+    margin: 0;
+    padding: 47px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 190px;
+}
+
+.card{
+    width: 330px;
+    height: 460px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card .card-head{
+    padding: 44px 0;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+.price {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-second);
+    margin: 0;
+}
+
+.card-text{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px
+}
+
+.card button {
+    height: 50px;
+    width: 205px;
+    margin-top: 15px;
+}
+
+.cards :nth-child(odd) button{
+    background-color: var(--color-fon);
+}
+
+
+footer {
+    background-color: var(--color-fon);
+    height: 190px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 190px;
+    padding-top: 60px;
+}
+
+footer p{
+    color: var(--color-white);
+    font-size: 20px;
+    letter-spacing: 0.4px
+}
+
+footer p span{
+    color: var(--color-second);
+}
